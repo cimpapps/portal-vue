@@ -1,26 +1,25 @@
 @import "src/styles/colors";
 @import "src/styles/fonts";
 
-
-
-  // .className => ia prima clasa pe care o intalneste
-  // .classA{
-  // color: red;
-  // & .classB =>  classA
-  // }
-  //fisier de culori
-  // backgrund : $white
-  .title {
+.title {
+  display: flex;
+  color: $core-white-orange;
+  background-color: $functional-grey-6;
+  height: 100%;
+  padding: 0.5rem;
+  &-description {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    &-description {
-      display: flex;
-      flex-direction: column;
-      p {
-        padding: 0;
-      }
+    p {
+      padding: 0;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
     }
   }
+}
 
 
 

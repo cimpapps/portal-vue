@@ -2,14 +2,14 @@
   <div>
     <div class="title">
       <div>
-        <p class="number-items">{{numberOfItems}}</p>
+        <p class="number-items tille-icon">{{numberOfItems}}</p>
       </div>
-      <div class="title-description">
-        <p> {{title}}</p>
-        <p v-if="subTitle"> {{subTitle}}</p>
+      <div class="title-description ">
+        <p class="tille-title"> {{title}}</p>
+        <p v-if="subTitle" class="tille-subtitle"> {{subTitle}}</p>
       </div>
     </div>
-    <img :src="image" alt="" class="content">
+    <mxm-tille-content type="BAR"></mxm-tille-content>
   </div>
 </template>
 
@@ -19,6 +19,4 @@
 
 <style lang="scss" scoped>
   @import'tille.component';
-
-
 </style>

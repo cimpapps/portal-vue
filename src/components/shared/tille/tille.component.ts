@@ -1,6 +1,12 @@
 import {Component, Prop, Vue} from "vue-property-decorator";
+import TilleContent from "@/components/shared/content/TilleContent.vue";
 
-@Component
+
+@Component({
+  components: {
+    'mxm-tille-content': TilleContent
+  }
+})
 export default class Tille extends Vue {
 
   @Prop({default: '*'}) numberOfItems!: number;
