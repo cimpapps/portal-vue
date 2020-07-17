@@ -18,32 +18,7 @@
 </script>
 
 <style lang="scss" scoped>
-  //@import 'tille.component';
-  /*@import "src/styles/colors";*/
-  /*@import "src/styles/fonts";*/
+  @import'tille.component';
 
-  :host {
-    display: flex;
 
-    // .className => ia prima clasa pe care o intalneste
-    // .classA{
-    // color: red;
-    // & .classB =>  classA
-    // }
-    //fisier de culori
-    // backgrund : $white
-    .title {
-      display: flex;
-
-      &-description {
-        display: flex;
-        flex-direction: column;
-
-        p {
-          padding: 0;
-        }
-      }
-    }
-
-  }
 </style>
