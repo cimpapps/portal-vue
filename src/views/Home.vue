@@ -14,6 +14,26 @@
               title="Buna Catalin"
               type="LineChart"
               class="card"
+      ></Tile><Tile
+              numberOfItems="39"
+              title="Buna Catalin"
+              type="LineChart"
+              class="card"
+      ></Tile><Tile
+              numberOfItems="39"
+              title="Buna Catalin"
+              type="LineChart"
+              class="card"
+      ></Tile><Tile
+              numberOfItems="39"
+              title="Buna Catalin"
+              type="LineChart"
+              class="card"
+      ></Tile><Tile
+              numberOfItems="39"
+              title="Buna Catalin"
+              type="LineChart"
+              class="card"
       ></Tile>
     </div>
   </div>
@@ -38,6 +58,7 @@ export default {
     &-cards {
       display: flex;
       justify-content: space-evenly;
+      flex-wrap: wrap;
   }
   }
 </style>
