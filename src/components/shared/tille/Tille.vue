@@ -9,7 +9,7 @@
         <p v-if="subTitle" class="tille-subtitle"> {{subTitle}}</p>
       </div>
     </div>
-    <mxm-tille-content type="BAR"></mxm-tille-content>
+    <mxm-tille-content type="LIST"></mxm-tille-content>
   </div>
 </template>
 

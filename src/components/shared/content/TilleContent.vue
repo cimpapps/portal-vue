@@ -1,7 +1,9 @@
 <template>
   <div>
-    <p>{{type}}</p>
-    <component :is="type"></component>
+    <p>{{type}} {{elements}}</p>
+    <component :is="type" v-bind="data"
+    >
+    </component>
   </div>
 </template>
 
