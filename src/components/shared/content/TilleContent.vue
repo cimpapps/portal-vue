@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>{{type}}</p>
-    <component :is="type"></component>
+    <component :is="type" :width="300" :height="200" class="dashboard-chart"></component>
   </div>
 </template>
 
@@ -9,6 +9,9 @@
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+  @import "src/styles/colors";
 
+  .dashboard{
+  }
 </style>
